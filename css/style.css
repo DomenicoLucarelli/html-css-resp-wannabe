@@ -142,3 +142,36 @@ img {
     padding: 0 20px;
    } 
 }
+
+
+@media screen and (max-width: 480px){
+        .container{
+    max-width: 480px;
+    
+   } 
+
+   .row {
+    flex-direction: column;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .col {
+    padding: 2rem 3rem;
+    
+}
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+}
